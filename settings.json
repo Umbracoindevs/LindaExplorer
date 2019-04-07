@@ -5,12 +5,12 @@
 */
 {
   // name your instance!
-  "title": "Linda Explorer",
+  "title": "Umbra Coin V2",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "LindaCoin",
+  "coin": "Umbra",
 
   // coin symbol
   "symbol": "LINDA",
@@ -19,7 +19,7 @@
   //  Options:
   //    bitcoin = Default Bitcoin/Dash/... clones
   //    ripple = Ripple clones
-  "baseType": "bitcoin",
+  "baseType": "pivx",
 
   // The epoch time for a ripple based coin.
   // You can ignore this setting if you're not using a ripple based coin.
@@ -36,7 +36,7 @@
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
   //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Linda",
+  "theme": "Umbra",
 
   // port to listen for requests on.
   "port" : 80,
@@ -108,7 +108,7 @@
   //supported markets: bittrex, btcalpha, poloniex, yobit, graviex, empoex, bleutrade, cryptopia, ccex, coinexchange, idax
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "LINDA",
+    "coin": "UMBRA",
     "exchange": "BTC",
     "enabled": ["cryptopia","coinexchange","graviex"],
     "cryptopia_id": "5246",
@@ -155,7 +155,7 @@
   // Coin info page
   "coininfo": {
     "basic_info_links": [
-      ["Github", "https://github.com/Lindacoin/Linda"],
+      ["Github", "https://github.com/Umbracoindevs"],
       ["Add Nodes", "https://lindaexplorer.kdhsolutions.co.uk/connectionlist.txt"]
     ],
     "masternode_required": 2000000,
@@ -165,13 +165,13 @@
 
   // CoinMarketCap integration
   "coinmarketcap": {
-    "ticker": "LINDA"
+    "ticker": "UMBRA"
   },
 
   // twitter, facebook, googleplus
-  "twitter": "Lindaproject",
+  "twitter": "coinumbra",
   "facebook": "lindacoincurrency",
-  "discord": "VfRXJA9",
+  "discord": "aYBqubE",
   "googleplus": "yourgooglepluspage",
 
   //genesis
