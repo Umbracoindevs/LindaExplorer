@@ -34,7 +34,7 @@
   // Uses bootswatch themes (http://bootswatch.com/)
   // Valid options:
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
-  //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
+  //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti, Linda
   // theme (see /public/themes for available themes)
   "theme": "Umbra",
 
