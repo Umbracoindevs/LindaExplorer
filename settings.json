@@ -13,7 +13,7 @@
   "coin": "Umbra",
 
   // coin symbol
-  "symbol": "UMBRA",
+  "symbol": "UMB",
 
   // coin type
   //  Options:
@@ -64,7 +64,7 @@
   },
 
   // confirmations
-  "confirmations": 20,
+  "confirmations": 30,
 
   // language settings
   "locale": "locale/en.json",
@@ -91,7 +91,7 @@
   "index": {
     "show_hashrate": true,
     "show_coin_supply": true,
-    "difficulty": "Hybrid",
+    "difficulty": "POS",
     "last_txs": 100,
     "last_txs24": 1500
   },
@@ -110,7 +110,7 @@
   "markets": {
     "coin": "UMBRA",
     "exchange": "BTC",
-    "enabled": ["graviex","coinexchange","cryptopia"],
+    "enabled": ["graviex"],
     "cryptopia_id": "5246",
     "ccex_key" : "Get-Your-Own-Key",
     "default": "cryptopia",
@@ -145,7 +145,7 @@
     "list_format": {
       "address": 3,
       "status": 1,
-      "lastseen": 4,
+      "lastseen": 5,
       "lastpaid": -1,
       "ip": 0
     }
@@ -156,7 +156,7 @@
   "coininfo": {
     "basic_info_links": [
       ["Github", "https://github.com/Umbracoindevs"],
-      ["Add Nodes", "https://lindaexplorer.kdhsolutions.co.uk/connectionlist.txt"]
+      ["Add Nodes", "https://umbracoin.io/scripts/util/addnode.txt"]
     ],
     "masternode_required": 10000,
     "block_time_sec": 60,
@@ -175,8 +175,8 @@
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "4080031d1fd26d68fa953d7a5c1dac3b2618b56d8a3fa35dd4678bdeb0946671",
-  "genesis_block": "000000fa793257f502f94a3531aebdaf91b070324a8f5041324b80f4b0f74c51",
+  "genesis_tx": "e5b9c9a658a89f8a7af6b01443045f7423345fb3ab17dc3436335a98a3fec70b1",
+  "genesis_block": "983187781fecc3181af6fc5211abbd2feb62e09fadf971970353cf98e6b2fc10",
 
   // Fetch blocks from <index>
   "fetch_blocks_from": 0,
@@ -188,7 +188,7 @@
   "txcount": 100,
 
   //show total sent & received on address page (set false if PoS)
-  "show_sent_received": true,
+  "show_sent_received": false,
 
   // how to calculate current coin supply
   // COINBASE : total sent from coinbase (PoW)
